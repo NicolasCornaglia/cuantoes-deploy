@@ -1,0 +1,77 @@
+.paymentCard {
+   margin-top: 50px;
+   width: 90vw
+   
+}
+
+.button {
+   width: 270px;
+   height: 35px;
+   text-transform: uppercase;
+   color: #000;
+   background-color: #fff;
+   border: none;
+   border-radius: 45px;
+   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+   transition: all 0.3s ease 0s;
+   cursor: pointer;
+   outline: none;
+   margin: 0 0 15px 0;
+   }
+ 
+ .button:hover {
+   background-color: #FF533D;
+   box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.15);
+   color: #fff;
+   transform: translateY(-3px);
+}
+
+.paymentDistribution {
+   font-size: calc(18px + 2vmin);
+   margin: 35px 0 20px 0;
+}
+
+.paymentRow,.resultRow {
+   display: flex;
+   justify-content: flex-start;
+}
+
+.totalTitle {
+   display: flex;
+   justify-content: flex-start;
+}
+
+.bottomSpace {
+   margin: 0 0 30px 0;
+}
+
+.copySection {
+   border: 1px solid white;
+   padding: 10px;
+   border-radius: 5px;
+   margin: 10px 0 0px 0;
+   cursor: pointer;
+}
+
+.copySection:hover {
+   border: 1px solid lightgreen;
+   transition: all 0.3s ease 0s;
+}
+
+.copySection:hover + .hide {
+   display: block;
+   color: lightgreen;
+   font-size: 10px;
+}
+
+.hide {
+   display: none;
+}
+
+.copyTitle {
+   font-size: 14px;
+}
+
+.paymentSection {
+   display: none;
+}
