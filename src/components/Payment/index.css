@@ -1,7 +1,6 @@
 .paymentCard {
    margin-top: 50px;
    width: 90vw
-   
 }
 
 .button {
@@ -74,4 +73,13 @@
 
 .paymentSection {
    display: none;
+}
+
+.inputNotCompleted {
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   width: 240px;
+   margin: auto;
+   font-size: 15px;
 }
