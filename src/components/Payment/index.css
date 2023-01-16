@@ -1,6 +1,6 @@
 .paymentCard {
    margin-top: 50px;
-   width: 90vw
+   width: 90vw;
 }
 
 .button {
@@ -82,4 +82,18 @@
    width: 240px;
    margin: auto;
    font-size: 15px;
+}
+
+.firstResults {
+   margin: auto;
+   width: 250px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+}
+
+.paymentSection {
+   margin: auto;
+   width: 250px;
 }

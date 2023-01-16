@@ -136,7 +136,7 @@ function Payment() {
                     <div className='paymentCard'>
                         <button className="button" onClick={handleChange}>Obtener resultado</button>
 
-                        <div>
+                        <div className="firstResults">
                             <p className="totalTitle">
                                 Total: ${totalAmountResult}
                             </p>
@@ -161,7 +161,7 @@ function Payment() {
                                         payment.length > 0 && payment.map((paymentRow, i) => {
                                             return (
                                                 <div className="paymentRow" key={i + 'key'}>
-                                                    <span className="copyRow" key={i + 'copyKey'}>{paymentRow}</span>
+                                                    <p className="copyRow" key={i + 'copyKey'}>{paymentRow}</p>
                                                 </div>
                                             )
                                         })
