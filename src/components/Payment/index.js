@@ -13,6 +13,7 @@ function Payment() {
     let namesArr = [];
     let rowsArr = [];
     let amountArr = [];
+    let isAnyAmountInputNaN;
 
     useEffect(() => {
         const quantityInput = document.querySelector(".quantity");
@@ -21,7 +22,7 @@ function Payment() {
 
         if (quantityInput !== undefined) {
             quantityInput.addEventListener('input', () => {
-                if (!(quantityInput.value.length > 0)) {       
+                if (!(quantityInput.value.length > 0)) {
                     setCheckAllValues(false);
                 }
             })
@@ -40,8 +41,15 @@ function Payment() {
             totalAmount += parseFloat(amounts[i].value);
             namesArr.push(peopleNames[i].value)
             amountArr.push(parseFloat(amounts[i].value))
+            if (isNaN(amounts[i].value) && (amounts[i].value) !== '') {
+                isAnyAmountInputNaN = true;
+            }
         }
         setAmounts(amountArr);
+
+        if (amountArr.includes('')) {
+            isAnyAmountInputNaN = false;
+        }
 
         const paymentPerPerson = (totalAmount / parseFloat(quantity.value)).toFixed(2)
 
@@ -50,17 +58,27 @@ function Payment() {
         })
         setRows(rowsArr);
 
-        /* check if an imput is empty */
-
-
         /* Checking all inputs are completed */
-        if (isNaN(totalAmount) || namesArr.includes('') || (quantity.value === '')) {
+        if (isNaN(totalAmount) || namesArr.includes('') || (quantity.value === '') || (isAnyAmountInputNaN === true)) {
             setCheckAllValues(false);
-            inputsNotCompletedFrase()
         } else {
             setTotalAmountResult(totalAmount)
             setCheckAllValues(true);
         }
+
+        /* Checking amount input are numeric */
+        if (isAnyAmountInputNaN) {
+            numericPaymentCheck();
+        } else if (!isAnyAmountInputNaN) {
+            inputsNotCompletedFrase();
+        }
+
+    }
+
+    const numericPaymentCheck = () => {
+        const inputNotCompleted = document.querySelector('.inputNotCompleted');
+        inputNotCompleted.innerHTML = "Los pagos deben ser escritos con caracteres numericos";
+        inputNotCompleted.style.color = 'red';
     }
 
     const paymentResults = () => {
@@ -125,9 +143,6 @@ function Payment() {
         inputNotCompleted.innerHTML = "Debes completar todos los campos para obtener el resultado final";
         inputNotCompleted.style.color = 'red';
     }
-
-
-
 
     return (
         <div >
