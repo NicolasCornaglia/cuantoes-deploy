@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cuantoes-deploy/static/css/main.ba819e88.css",
-    "main.js": "/cuantoes-deploy/static/js/main.9e03f106.js",
+    "main.css": "/cuantoes-deploy/static/css/main.31127706.css",
+    "main.js": "/cuantoes-deploy/static/js/main.a180609b.js",
     "static/js/787.28cb0dcd.chunk.js": "/cuantoes-deploy/static/js/787.28cb0dcd.chunk.js",
     "static/media/logo.png": "/cuantoes-deploy/static/media/logo.dab3ec4dd57c2cfdfa75.png",
     "index.html": "/cuantoes-deploy/index.html",
-    "main.ba819e88.css.map": "/cuantoes-deploy/static/css/main.ba819e88.css.map",
-    "main.9e03f106.js.map": "/cuantoes-deploy/static/js/main.9e03f106.js.map",
+    "main.31127706.css.map": "/cuantoes-deploy/static/css/main.31127706.css.map",
+    "main.a180609b.js.map": "/cuantoes-deploy/static/js/main.a180609b.js.map",
     "787.28cb0dcd.chunk.js.map": "/cuantoes-deploy/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba819e88.css",
-    "static/js/main.9e03f106.js"
+    "static/css/main.31127706.css",
+    "static/js/main.a180609b.js"
   ]
 }
