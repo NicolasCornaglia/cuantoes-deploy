@@ -97,3 +97,21 @@
    margin: auto;
    width: 250px;
 }
+
+.copyRow {
+   margin: 2px 0 0 0;
+}
+
+@media (min-width: 480px) {
+   .firstResults {
+      margin: 0 10% 0 10%;
+      width: 70vw;
+   }
+
+   .paymentSection {
+      margin: auto;
+      width: 40vw;
+      align-items: center;
+   }
+
+}
