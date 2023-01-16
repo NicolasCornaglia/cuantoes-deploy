@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "//cuantoes.com.ar/static/css/main.12a6d499.css",
-    "main.js": "//cuantoes.com.ar/static/js/main.c6a89b37.js",
-    "static/js/787.28cb0dcd.chunk.js": "//cuantoes.com.ar/static/js/787.28cb0dcd.chunk.js",
-    "static/media/logo.png": "//cuantoes.com.ar/static/media/logo.dab3ec4dd57c2cfdfa75.png",
-    "index.html": "//cuantoes.com.ar/index.html",
-    "main.12a6d499.css.map": "//cuantoes.com.ar/static/css/main.12a6d499.css.map",
-    "main.c6a89b37.js.map": "//cuantoes.com.ar/static/js/main.c6a89b37.js.map",
-    "787.28cb0dcd.chunk.js.map": "//cuantoes.com.ar/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/static/css/main.12a6d499.css",
+    "main.js": "/static/js/main.65fce34f.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/logo.png": "/static/media/logo.dab3ec4dd57c2cfdfa75.png",
+    "index.html": "/index.html",
+    "main.12a6d499.css.map": "/static/css/main.12a6d499.css.map",
+    "main.65fce34f.js.map": "/static/js/main.65fce34f.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.12a6d499.css",
-    "static/js/main.c6a89b37.js"
+    "static/js/main.65fce34f.js"
   ]
 }
