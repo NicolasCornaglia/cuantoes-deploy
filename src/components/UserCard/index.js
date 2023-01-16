@@ -22,7 +22,7 @@ function UserCard() {
 
             repeatNameArr.splice(repeatNameArr.indexOf(nameInput[i].value), 1);
 
-            if (repeatNameArr.includes(nameInput[i].value)) {
+            if (repeatNameArr.includes(nameInput[i].value) && (nameInput[i].value !== "")) {
                 nameTitle[i].innerHTML = 'Nombre repetido:';
                 nameTitle[i].style.color = 'red'
                 nameInput[i].classList.remove("checked");
