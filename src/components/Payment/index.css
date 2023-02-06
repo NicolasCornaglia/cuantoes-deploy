@@ -100,6 +100,7 @@
 
 .copyRow {
    margin: 2px 0 0 0;
+   font-size: 14px;
 }
 
 @media (min-width: 480px) {
