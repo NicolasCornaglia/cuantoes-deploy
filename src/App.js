@@ -11,7 +11,7 @@ function App() {
           <div className='titleBackground'>
             <h2 className="appTitle"><img src={logo} className='logo' alt="logo" /></h2>
           </div>
-          <p className='explainingParagraph'><span className='paragraph'>¿Quiere dividir los gastos de su reunion equitativamente? Siga los pasos y averigue como saldar las deudas.</span></p>
+          <p className='explainingParagraph'><span className='paragraph'>¿Quiere dividir los gastos de su reunion equitativamente? Ingrese los integrantes con sus pagos y averigue como saldar las deudas.</span></p>
         </div>
 
         <Users />

@@ -18,12 +18,11 @@ function Users() {
   return (
     <>
       <div className='usersCard' >
-        <h4 className="amountTitle">¿Cuantas personas son?</h4>
-        <input className="quantity" onChange={handleChange} type="number"/>
+        <h4 className="amountTitle">¿Cuántas personas son?</h4>
+        <input className="quantity" onChange={handleChange} type="number" />
         <div>{rows}</div>
       </div>
 
-      {/* hacerle recibir props  de qty a payment, y que luego checkee al cambiarla y se pueda cambiar el estado de checkallvalues*/}
       <Payment />
     </>
 
