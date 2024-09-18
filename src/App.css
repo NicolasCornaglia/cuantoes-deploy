@@ -7,7 +7,6 @@
 }
 
 .App-header {
-
   background-color: #0F1626;
   min-height: 150vh;
   display: flex;
@@ -33,6 +32,7 @@
 
 .logo {
   width: 100%;
+  max-width: 800px;
 }
 
 .explainingParagraph {
